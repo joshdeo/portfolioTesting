@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Joshua Deosaran</title>
+    <link rel="shortcut icon" type="image/png" href="./resources/images/favicon.svg">
+</head>
+
+<body>
+
+    <div class="progress" style="height: 5px;">
+        <div class="progress-bar bg-warning" id="progressbar" role="progressbar" style="width: 0%;" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="gal.html">Gallery</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="#contactForm">Contact</a>
+                </div>
+                <div class="nav-link-wrapper" id="aboutme">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>Joshua Deosaran</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <header class="showcase">
+        <div class="content">
+            <img src="./resources/images/JD.png" alt="sites logo" class="logo">
+            <div class="title">
+                Welcome to my Website
+            </div>
+            <div class="text">
+                If you <span style="color:white">think</span> you should, you probably should
+            </div>
+        </div>
+    </header>
+
+    <div class="section-2">
+        <span class="headline" data-aos="fade-down" data-aos-duration="1000">THE COME UP</span>
+        <div class="section-2-content">
+            <div class="box1" data-aos="fade-right" data-aos-duration="2000">
+                <span>
+                    I was born in Staten Island, New York in 1996. I shortly moved cities to Queens where I was raised for the
+                    majority of my youth which set the foundation to how I think, speak and observe many aspects in my
+                     life. I learned not only street smarts, but also about food, fashion, and multiple other things
+                </span>
+                <br>
+                <br>
+                <span>
+                    In 2005 my mom and I moved to Fort Lauderdale, Florida for an escape and change of scenery. Miami
+                    had everything New York had, plus warm weather. It was like heaven on earth. My mom and I would walk
+                    down Miami Beach everyday after school. I vividly remember walking by Versace's Mansion and seeing a
+                     myriad of supercars. I was there through Hurricane Katrina, that was a sight I
+                    can’t unsee.
+                </span>
+                <br>
+                <br>
+                <span>
+                    I now reside in Toronto. I’ve lived here the past 10 years and grew into the adult I am today.
+                    Throughout my journey I learned a lot about not only myself but about the quality of people that I
+                    embarked. Here is where my love for videography and graphic design came about. I began by filming
+                    and editing Call of Duty videos to stream online. I later studied Journalism and soon began my internship
+                     at Discovery Channel, that led to my career there for the next
+                    two years.
+                </span>
+            </div>
+            <section class="camera-image" data-aos="fade-left" data-aos-duration="3000">
+                <img src="./resources/images/camera.png" alt="Picture of a camera">
+            </section>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3 class="about-header">JOSHUA DEOSARAN</h3>
+                <br>
+                <div class="about-text">Site solely developed and ran by Joshua Deosaran in Toronto, ON. <br>
+                    <br>
+                    If you woudld
+                    like to contact me, please use the contact form or don't be afraid to reach out on my Social Media.
+                </div>
+            </div>
+
+            <div class="footer-section links">
+                <ul>
+                    <a href="https://ca.linkedin.com/in/joshua-deosaran-210430a5" target="_blank">
+                        <li><i class="fa fa-linkedin fa-2x"></i></li>
+                    </a>
+                    <a href="https://www.instagram.com/josh.deo/" target="_blank">
+                        <li><i class="fa fa-instagram fa-2x"></i></li>
+                    </a>
+                    <a href="https://twitter.com/JoshDeosaran" target="_blank">
+                        <li><i class="fa fa-twitter fa-2x"></i></li></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="footer-section contact-form" id="contactForm">
+                <h3>CONTACT ME</h3>
+                <div class="alert">sent <i class=" fa fa-check"></i></div>
+                <br>
+                <form action="index.html" method="post">
+                    <input type="name" name="name" class="text-input contact-input" id="name" required>Name
+                    <br>
+                    <input type="subject" name="subject" class="text-input contact-input" id="subject">Subject
+                    <br>
+                    <input type="email" name="email" class="text-input contact-input" id="email" required>Your email
+                    address
+                    <br>
+                    <textarea name="Message" class="text-input contact-input" id="message"></textarea>Your message
+                    <br>
+                    <button name="submit" type="submit" class="btn btn-big envelope"><i class="fa fa-envelope"
+                            id="submit"></i>SEND</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; Designed and powered by jdeo.ca
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
